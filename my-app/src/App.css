@@ -3,16 +3,10 @@
   height: 100vh;
 }
 .maindiv{
-  margin-left: 300px;
- width: 80%;
  position: absolute;
  top: 0;
- @media (max-width:840px) {
-  margin-left: 0;
-  width: 100%;
-  position: relative;
+ width: 100%;
  }
-}
 h3 {
   letter-spacing: 6px;
   text-transform: uppercase;
@@ -27,35 +21,24 @@ h3 {
   text-align: justify;
   background-color: white;
 }
-.sidebar{
-  border: 0px solid black;
-  width: 19%;
-  text-align: center;
-  font-weight: bold;
-  font-family: serif;
-  margin-top: 50px;
-}
-
-.sideimg{
-  height: 100px;
-  width: 100px;
-}
-.spanside{
-  padding-top: 110px;
-}
-.linkstyle{
-  text-decoration: none;
-  color: black;
-}
-.olmenu{
-  display: inline-block;
-  margin-top: 50px;
+.carouimage{
+  height: 400px;
   @media (max-width:840px) {
-    display: inline-flex;
-    margin-left: 50px;
-  }
+    height: 200px;
+   }
 }
-.menubutton{
-  font-family: serif;
-  font-weight: bold;
+.carou{
+  box-shadow: 1px 1px 10px black;
+  border-radius: 6px;
+}
+.caroumain{
+  width: 50%;
+  margin: auto;
+  position: relative;
+  margin-top: 50px;
+
+  @media (max-width:840px) {
+   width: 80%;
+   height: 100px;
+  }
 }
